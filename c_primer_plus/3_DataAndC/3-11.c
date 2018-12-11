@@ -34,7 +34,8 @@ void test2(void) {
 }
 
 void test3(void) {
-    printf("\b");
+    //发出警报是\a, \b是backspace
+    printf("\a");
     printf("Startled by the sudden sound, Sally shouted,\n");
     printf("\"By the Great Pumpkin, what was that!\"\n");
 }
